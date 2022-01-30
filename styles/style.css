@@ -21,3 +21,28 @@ header{
 .list{
     padding-left: 20px;
 }
+
+.start-influencer-journey{
+    display: flex;
+    
+    padding: 0px 120px 0px 120px;
+
+}
+.overview{
+    width: 582px;
+height: 270px;
+    
+}
+.initial-banner{ 
+    width: 440px;
+    height: 414px;
+}
+.link-button{
+    background-color:#E02C6D;
+    color: white;
+    font-size: 16px;
+    border-radius: 41px;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+}
