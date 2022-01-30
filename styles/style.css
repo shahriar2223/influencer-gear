@@ -54,6 +54,7 @@ height: 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 61px;
 }
 .ecommerce-name{
     padding-left: 61px;
