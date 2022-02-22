@@ -4,10 +4,10 @@
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
+    background-color: #D3D3D3;
 }
 header{
-    background-color: #FFFFFF;
+    background-color: #;
 }
 
 .influencer-products{
@@ -38,13 +38,14 @@ height: 270px;
     height: 414px;
 }
 .link-button{
+    text-decoration: none;
     background-color:#E02C6D;
     color: white;
     font-size: 16px;
     border-radius: 41px;
     width: 24px;
     height: 24px;
-    text-decoration: none;
+    padding: 10px;
 }
 
 .hr{
@@ -58,4 +59,56 @@ height: 270px;
 }
 .ecommerce-name{
     padding-left: 61px;
+}
+
+/* -----------------------
+     products styles 
+------------------------*/
+.container{
+    padding-left: 169px;
+    padding-right: 224px;
+    width: 1047px;
+    height: 1862px;
+}
+#section-title{
+    text-align: center;
+    padding-left: 155px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    background-color: #D3D3D3;
+}
+.product{
+    background-color: #FFFFFF;
+    width: 329px;
+    height: 530px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.product img{
+    justify-content: center;
+}
+.see-more-button{
+    text-align: right;
+    color: #E02C6DDE;
+    ;
+}
+.bestselller-product-area{
+    display: flex;
+    margin: 0px 170px 0px 182px;
+}
+.Feature-product{
+    width: 50%;
+    padding-top: 50px;
+}
+.bestseller-img{
+    width: 50%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
